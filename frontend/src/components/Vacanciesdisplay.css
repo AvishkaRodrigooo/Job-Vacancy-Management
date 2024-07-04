@@ -1,0 +1,42 @@
+.custom-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Set the height of each card to 100% of its container */
+    box-shadow:5px 5px 5px rgba(0,0,0,0.2);
+    background-color: #d3a2ec;
+    
+  }
+  .photo{
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 70vh; /* Ensure the background covers the whole viewport height */
+  }
+  .card-body {
+    flex-grow: 1; /* Allow the card body to grow to fill the available space */
+  }
+  .mm{
+    padding: 7px;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px; /* Change the height to 50 pixels */
+  width: 100px;
+  border: none;
+  background-color: rgba(58, 32, 74, 0.912);
+  color: white;
+  }
+ h1{
+  font-family: 'Pacifico', cursive; /* Choose a suitable font family */
+  font-size: 35px; /* Adjust the font size as needed */
+  color: #401257; /* Choose a suitable color */
+  text-align: center; /* Center align the text */
+  margin-bottom: 20px; 
+
+}
+.our{
+  color: #401257;
+}

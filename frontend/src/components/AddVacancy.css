@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+  
+  }
+  body{
+    /*background-color: #a496857c;*/
+    background-image: url('AdminPageS.jpg'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  background-size: cover; /* Cover the entire background with the image */
+  background-position: center; /* Cen
+  }
+  
+  .container{
+    padding: 10px;
+    /*background-color: blue;*/
+    max-width: 50px auto;
+  } 
+  .btn{
+    border: none;
+    padding: 7px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn-add{
+    background:#60ade8;;
+    color: rgb(27, 23, 23);
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .addContainer{
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  .addContainer form{
+    width: 420px;
+    background-color:#c79f95;
+    display: flex;
+    flex-direction: column;
+    padding: 45px 40px;
+    box-shadow:5px 5px 5px rgba(168, 122, 122, 0.2);
+    border-radius: 5px;
+  
+  }
+
+  .addContainer form label{
+    font-size: 18px;
+  }
+  .addContainer form input{
+      font-size: 18px;
+      padding: 5px;
+      margin-bottom: 10px;
+  }
+  .addContainer for textarea{
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .addContainer form button{
+    background-color:#413430;
+    color:#ddcfcf;
+    font-weight: 500;
+    margin-top: 30px;
+  } 
+
+  .addContainer form .close-btn{
+
+    margin-left: auto;
+    font-size: 18px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid  rgb(97, 63, 100);
+   cursor: pointer;
+
+  }
+
+  .tablecontainer{
+    margin-top: 30px;
+    
+  }
+ .addContainer table{
+  box-shadow: 5px 5px 10px rgba(56, 20, 20, 0.2);
+ }
+  .tablecontainer table thead tr{
+     background-color: #60ade8;
+     
+
+  }
+  
+  .tablecontainer  table thead tr th,
+  .tablecontainer  table tBODY tr td
+  {
+
+       min-width: 200px;
+       border: 3px solid rgb(238, 237, 245);
+     
+       padding: 7px;
+       text-align: center;
+        
+
+  }
+  .tablecontainer table tbody td {
+    border-bottom: 1px solid rgb(16, 1, 1);
+}
+
+.btn-edit,
+.btn-delete{
+   font-size:  16px;
+   padding: 5px 10px;
+   margin: 0px 5px;
+}
+.btn-edit{
+  background-color: rgb(58, 117, 213) ;
+}
+.btn-delete{
+  background-color: #c45656;
+  color: white;
+}
+.addContainer input,
+.addContainer textarea {
+  color: rgb(2, 2, 2); /* Change placeholder color to red */
+background-color: #debab0;
+border-color: black;
+
+}

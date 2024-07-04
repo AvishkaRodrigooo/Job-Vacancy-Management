@@ -1,0 +1,23 @@
+.bg-custom {
+    background-color:white;
+}
+.navbar-nav .nav-item a.nav-link:hover {
+    color: rgb(255, 255, 255);
+  }
+  .nav-item a.nav-link:hover {
+    background-color: #1f1b20;
+  }
+  .nav-item a.nav-link:hover {
+    border-radius: 9px;
+  }
+  .a.nav-item.dropdown-item {
+    background-color: #fdf8ff;;
+  }
+  .dropdown-menu .dropdown-item {
+    color: rgb(9, 8, 8); /* Change the color to your desired color */
+  }
+  .navbar-brand {
+    font-family: 'Arial', sans-serif; /* Change the font family to your desired font */
+    font-weight: bold; /* Optionally, you can make the font bold */
+    font-size: 24px; /* Optionally, you can adjust the font size */
+  }

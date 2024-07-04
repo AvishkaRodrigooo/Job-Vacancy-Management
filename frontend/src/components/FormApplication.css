@@ -1,0 +1,46 @@
+.formInput{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+input{
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid white(254, 255, 253);
+}
+span{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: none;
+
+}
+
+input:invalid~ span{
+    display: block;
+   
+}
+
+
+.formInput select,
+.formInput input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.formInput select {
+  appearance: none; /* Remove default styling for select element */
+  background-color: #f8f8f8; /* Background color */
+}
+
+.formInput select:focus,
+.formInput input:focus {
+  outline: none;
+  border-color: #7b268e; /* Border color when focused */
+}
